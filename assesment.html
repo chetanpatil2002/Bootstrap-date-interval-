@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <title>Date Interval Calculator</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Date Interval Calculator</h2>
+        
+        <label for="startDate">Start Date:</label>
+        <input type="text" id="startDate" class="form-control" placeholder="Select start date">
+
+        <label for="endDate">End Date:</label>
+        <input type="text" id="endDate" class="form-control" placeholder="Select end date">
+
+        <button id="calculateBtn" class="btn btn-primary mt-3">Calculate Interval</button>
+
+        <div id="result" class="mt-3"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
